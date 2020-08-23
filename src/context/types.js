@@ -1,5 +1,6 @@
+// Variable of strings that we call to change state inside reducer (located inside context foler (not inside context/github))
 export const SEARCH_USERS = "SEARCH_USERS";
-export const GET_USERS = "GET_USERS";
+export const GET_USER = "GET_USER";
 export const CLEAR_USERS = "CLEAR_USERS";
 export const SET_LOADING = "SET_LOADING";
 export const SET_ALERT = "SET_ALERT";

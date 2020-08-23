@@ -11,7 +11,7 @@ const Users = () => {
     return <Spinner />;
   } else {
     return (
-      <div style={userStyle}>
+      <div className="main-grid-div">
         {users.map((user) => (
           <UserItem key={user.id} user={user} />
         ))}
@@ -20,10 +20,10 @@ const Users = () => {
   }
 };
 
-const userStyle = {
-  display: "grid",
-  gridTemplateColumns: "repeat(3,1fr)",
-  gridGap: "1rem",
-};
+// const userStyle = {
+//   display: "grid",
+//   gridTemplateColumns: "repeat(3,1fr)",
+//   gridGap: "1rem",
+// };
 
 export default Users;
